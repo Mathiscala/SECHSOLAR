@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SpyListVars_0>
+  <ConfigurationInfo>
+    <SpyListName>Spy List Name[1]</SpyListName>
+    <ConfigFileVersion>3</ConfigFileVersion>
+    <ToolWindowPaneIndex>0</ToolWindowPaneIndex>
+    <DefaultRefreshRateMonitoring>500</DefaultRefreshRateMonitoring>
+  </ConfigurationInfo>
+  <Variable>
+    <FullName>sechoir_cannabis.Device1.Resource1.Airgaia.SC_M_A_ventil</FullName>
+  </Variable>
+  <Variable>
+    <FullName>sechoir_cannabis.Device1.Resource1.Airgaia.brassage_on_off</FullName>
+  </Variable>
+  <Variable>
+    <FullName>sechoir_cannabis.Device1.Resource1.Airgaia.registre_on_off</FullName>
+  </Variable>
+  <Variable>
+    <FullName>sechoir_cannabis.Device1.Resource1.Airgaia.mode_brassage</FullName>
+  </Variable>
+  <Variable>
+    <FullName>sechoir_cannabis.Device1.Resource1.Airgaia.forcage_registre</FullName>
+  </Variable>
+</SpyListVars_0>

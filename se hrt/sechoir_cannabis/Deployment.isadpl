@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DeploymentView>
+  <DVNodeType Location="0 0" IndexName="Node21681426" Type="CategoryStation" MyWidth="200" Name="WorkStation" DataTemplate="Workstation" />
+  <DVNodeType Location="90 560" IndexName="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" Type="CategoryDevice" MyWidth="200" Name="sechoir_cannabis.Device1" />
+  <DVNodeType Location="20 330" IndexName="Node6163960" Type="CategoryNetwork" MyWidth="230" Name="USB1" MyColor="DodgerBlue" DataTemplate="Network" />
+  <DVNodeType Location="20 251.23967814929904" IndexName="Node51291881" Type="CategoryNetwork" MyWidth="862.588914163258" Name="ETCP1" MyColor="DarkBlue" DataTemplate="Network" />
+  <DVDeviceLinkData From="Node21681426" To="Node6163960" ToSpotX="0.30434782608695654" />
+  <DVDeviceLinkData From="e5619c74-aed5-4bfa-87ad-8e4823a88b2d" To="Node51291881" ToSpotX="0.18548812461287623" />
+  <DVDeviceLinkData From="Node21681426" To="Node51291881" ToSpotX="0.046372031153219057" />
+</DeploymentView>

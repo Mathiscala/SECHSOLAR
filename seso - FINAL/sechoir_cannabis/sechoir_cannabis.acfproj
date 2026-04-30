@@ -1,0 +1,23 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{79beacdd-a894-4d28-a042-45e56d2e7010}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>sechoir_cannabis</RootNamespace>
+    <AssemblyName>sechoir_cannabis</AssemblyName>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <CAMProjectFile>sechoir_cannabis\PrjLibrary.mdb</CAMProjectFile>
+    <UniqueProjectId>{79beacdd-a894-4d28-a042-45e56d2e7010}</UniqueProjectId>
+    <CAMProjectVersion>5.50.7</CAMProjectVersion>
+    <Name>sechoir_cannabis</Name>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Simulation' ">
+    <OutputPath>bin\Simulation\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Online' ">
+    <OutputPath>bin\Online\</OutputPath>
+  </PropertyGroup>
+  <Import Project="$(DevEnvDir)\PackagesToLoad\Targets\ISaGRAF.ISaGRAF5.targets" />
+  <Import Project="$(DevEnvDir)\PackagesToLoad\Targets\Carel.targets" />
+</Project>
